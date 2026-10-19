@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programmēšanas tehniķa profesiju virzieni</title>
+    <style>
+      :root {
+        --primary-color: #2563eb;
+        --bg-color: #f8fafc;
+        --card-bg: #ffffff;
+        --text-color: #1e293b;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        margin: 0;
+        padding: 20px;
+        line-height: 1.6;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      header h1 {
+        color: var(--primary-color);
+        margin-bottom: 10px;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+
+      .card {
+        background-color: var(--card-bg);
+        border-radius: 8px;
+        padding: 25px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card h2 {
+        color: var(--primary-color);
+        font-size: 1.25rem;
+        margin-top: 0;
+      }
+
+      .skills {
+        font-size: 0.9rem;
+        color: #64748b;
+        margin-top: 15px;
+      }
+
+      .skills strong {
+        color: var(--text-color);
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.85rem;
+        color: #64748b;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Programmēšanas tehniķa profesiju virzieni</h1>
+      <p>
+        Izptieti dažādas karjeras iespējas IT un programmēšanas nozarē pēc
+        tehnikuma absolvēšanas.
+      </p>
+      <a href="index.html">Uz sakumu</a>
+    </header>
+
+    <div class="container">
+      <!-- 1. Virziens -->
+      <div class="card">
+        <h2>🌐 Web izstrādātājs (Frontend / Backend)</h2>
+        <p>
+          Veido un uztur tīmekļa vietnes un lietotnes. Frontend izstrādātājs
+          rūpējas par lietotāja saskarni (HTML, CSS, JavaScript), bet Backend –
+          par servera pusi un datu apstrādi.
+        </p>
+        <div class="skills">
+          <strong>Galvenās prasmes:</strong> HTML, CSS, JavaScript, React,
+          Node.js
+        </div>
+      </div>
+
+      <!-- 2. Virziens -->
+      <div class="card">
+        <h2>🗄️ Datu bāžu administrators</h2>
+        <p>
+          Atbild par datu bāžu drošību, veiktspēju, dublēšanu un struktūru
+          izveidi, lai uzņēmumi varētu droši uzglabāt un analizēt savu
+          informāciju.
+        </p>
+        <div class="skills">
+          <strong>Galvenās prasmes:</strong> SQL, PostgreSQL, MySQL, datu
+          drošība
+        </div>
+      </div>
+
+      <!-- 3. Virziens -->
+      <div class="card">
+        <h2>🔍 Programmatūras testētājs (QA)</h2>
+        <p>
+          Pārbauda izstrādātās programmatūras kvalitāti, meklē kļūdas (bugus) un
+          raksta automatizētos testus, lai lietotāji saņemtu stabilu produktu.
+        </p>
+        <div class="skills">
+          <strong>Galvenās prasmes:</strong> Testēšanas teorija, Selenium,
+          Python / Java, kļūdu reģistrēšana
+        </div>
+      </div>
+
+      <!-- 4. Virziens -->
+      <div class="card">
+        <h2>📱 Mobilo lietotņu izstrādātājs</h2>
+        <p>
+          Specializējas lietotņu radīšanā viedtālruņiem un planšetdatoriem
+          operētājsistēmām Android un iOS.
+        </p>
+        <div class="skills">
+          <strong>Galvenās prasmes:</strong> Kotlin, Swift, Flutter, React
+          Native
+        </div>
+      </div>
+
+      <!-- 5. Virziens -->
+      <div class="card">
+        <h2>⚙️ IT sistēmu tehniķis / Administrators</h2>
+        <p>
+          Rūpējas par uzņēmuma datoru tīkliem, aparatūru, serveriem un nodrošina
+          tehnisko atbalstu darbiniekiem.
+        </p>
+        <div class="skills">
+          <strong>Galvenās prasmes:</strong> Datoru tīkli, Linux/Windows Server,
+          aparatūras diagnostika
+        </div>
+      </div>
+
+      <!-- 6. Virziens -->
+      <div class="card">
+        <h2>📊 Sistēmu analītiķis</h2>
+        <p>
+          Analizē uzņēmuma vai klienta vajadzības un palīdz izstrādātājiem
+          saprast, kādu programmatūru un funkcijas ir nepieciešams uzbūvēt.
+        </p>
+        <div class="skills">
+          <strong>Galvenās prasmes:</strong> Prasību analīze, UML diagrammas,
+          biznesa procesi
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Programmēšanas virzieni un karjeras iespējas.</p>
+    </footer>
+  </body>
+</html>
